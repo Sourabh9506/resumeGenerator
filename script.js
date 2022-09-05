@@ -9,7 +9,7 @@ function addNewWorkEField(){
 
 
 
-    let weOb=document.getElementById("we");
+    let weOb=document.getElementById("weField");
     let weAddButtonOb=document.getElementById("weAddButton")
 
     weOb.insertBefore(newNode,weAddButtonOb);
@@ -27,7 +27,7 @@ function addNewAQField(){
 
 
 
-    let aqOb=document.getElementById("aq");
+    let aqOb=document.getElementById("aqField");
     let aqAddButtonOb=document.getElementById("aqAddButton")
 
     aqOb.insertBefore(newNode,aqAddButtonOb);
